@@ -6,6 +6,10 @@ Abdelrazek Elnashar1,2,3, Linjiang Wang1,2, Bingfang Wu1,2, Weiwei Zhu1, Hongwei
 3 Department of Natural Resources, Faculty of African Postgraduate Studies, Cairo University, Giza 12613, Egypt
 */
 
+// Dataset repository version is available at https://doi.org/10.7910/DVN/ZGOUED
+// GEE application version is available at https://elnashar.users.earthengine.app/view/synthesizedet
+// This code is available at https://code.earthengine.google.com/7d9bb651b66cfbc4cdb6d968025177e5
+
 var yyKey = ee.List.sequence(1982, 2019).map(function(i){return ee.String(ee.Number(i).int())});
 var yyVal = ee.List.sequence(1982, 2019);
 var yyDic = ee.Dictionary.fromLists(yyKey, yyVal);
