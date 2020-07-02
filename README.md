@@ -3,3 +3,4 @@ This product is an ensemble ET estimates from 1982 to 2019 with a 1000 m × 1000
 This ET data unit is mm/month and It should be divided by 100 before usage. NoData value was assigned to -1.
 <br/><a href="https://doi.org/10.7910/DVN/ZGOUED">Click to open dataset repository version</a>,
 <br/><a href="https://elnashar.users.earthengine.app/view/synthesizedet">Click to open GEE application version</a>.
+<br/><a href="https://code.earthengine.google.com/7d9bb651b66cfbc4cdb6d968025177e5">Click to open GEE JavaScript version</a>.
