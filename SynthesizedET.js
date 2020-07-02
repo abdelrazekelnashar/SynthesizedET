@@ -18,4 +18,5 @@ function readAsset(image){
   return image.divide(100).rename('SynthesizedET').setMulti({'mm':mm, 'yy':yy, 'system:time_start':date}); }
 
 var SynthesizedET = ee.ImageCollection('users/Elnashar/SynthesizedET').map(readAsset);
+print(SynthesizedET.size());
 print(SynthesizedET);
